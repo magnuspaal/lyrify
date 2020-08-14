@@ -1,0 +1,21 @@
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    title Lyrify
+    style
+      include index.css
+  body
+    div.container
+      h1 LYRIFY
+      p Get lyrics to your currently playing Spotify song.
+      div.loginbutton(onclick="location.href = '/auth/spotify';", style="cursor: pointer")
+        img.loginImage(src='https://i.postimg.cc/bdcNKNNN/spotifywhite.png' border='0' alt='spotifywhite')
+        a.login LOG IN
+      div.github(onclick="location.href = 'https://github.com/magnuspaal/lyrify';", style="cursor: pointer")
+        img.githubImg(src='https://i.postimg.cc/rwsNG3Vm/Git-Hub-Mark-64px.png' border='0' alt='githublogo')
+        h2 repository
+

@@ -1,0 +1,80 @@
+body {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 320px;
+  margin: 10% 10% 10% 10%;
+  border: 1px solid;
+  border-radius: 7px;
+}
+
+.container h1 {
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #191414;
+}
+
+.container p {
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #191414;
+  text-align: center;
+  margin: 0 10% 10% 10%;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.container .loginbutton {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  background-color: #1DB954;
+  padding: 10px 20px 10px 20px;
+  width: 35%;
+  height: 20px;
+  border-radius: 100px;
+}
+
+.container .loginbutton img{
+  height: 100%;
+  margin-bottom: 2px;
+}
+
+.container .loginbutton a {
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1em;
+}
+
+.container .github {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container .github img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 1px;
+}
+
+.container .github h2 {
+  font-size: 1em;
+  margin-left: 4px;
+  font-style: normal;
+  font-family: sans-serif;
+}

@@ -1,0 +1,20 @@
+html
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='description', content='')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    style
+      include dialog.css
+
+    body
+      div.container
+        h1= title
+        if title == 'REMEMBER USER?'
+          div.dialog
+            a.yes(href='/remember') YES
+            a.yes(href='/') NO
+        else
+          p= message
+          a.retry(href='/') RETRY
