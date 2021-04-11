@@ -1,8 +1,6 @@
 # LYRIFY
 An app that takes your currently playing song on Spotify and displays lyrics for that song from Genius.com.
 
-[demo](http://magnuspaal.com)
-
 ## Installation
 
 Requires Node.js(https://nodejs.org/en/).
